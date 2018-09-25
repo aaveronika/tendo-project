@@ -1,3 +1,2 @@
 // JavaScript Document
 
-alert ("HI!");
