@@ -17,7 +17,6 @@ nav img {
 
 /*Navigation*/
 
-<<<<<<< HEAD
 #nav-bar {
 	position: fixed;
 	left: 0%;
@@ -43,19 +42,13 @@ ul li {
 	display: inline-block;
 	line-height: 100px;
 }
-=======
-nav li {
-    display: inline-block;
-}
-
->>>>>>> d529886986e8ab8b41804bb1e6ec860130fc8b1a
 
 ul li a {
+	display: block;
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 16px;
 	font-family: 'Raleway', sans-serif;
 	color: #000000;
-<<<<<<< HEAD
 	padding: 0 20px;
 	cursor: pointer;
 }
@@ -107,22 +100,10 @@ ul li a {
 
 .footer {
 	position: absolute;
-=======
-	padding: 0px 20px;
-	margin: 10px;
-	cursor: pointer;
-}
-
-.footer{
-	position: fixed;
-	left: 0;
-	bottom: 0px;
->>>>>>> d529886986e8ab8b41804bb1e6ec860130fc8b1a
 	width: 100%;
 	background-color: #000000;
 	color: white;
 	text-align: center;
-<<<<<<< HEAD
 	height: 40px;	
 }
 	
@@ -133,23 +114,4 @@ ul li a {
 	margin-right: 60px;	
  	background-color: #000000;
 	color: #FFFFFF;
-=======
-	height: 50px;
-	
-
-	
-}
-	
-.footer p{
-        font-family: 'Raleway', sans-serif;
-		display: inline;
-		margin-left: 10px;
-		margin-right: 100px;
-	
-	  
-	
-	
-
-	
->>>>>>> d529886986e8ab8b41804bb1e6ec860130fc8b1a
 }
