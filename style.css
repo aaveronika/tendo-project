@@ -68,31 +68,29 @@ ul li a {
 
 /*Index*/
 
+.index-page {
+	padding: 20px;
+	margin: 15px;
+}
+
+.index-image {
+	width: 50%;
+}
+
 #what-is-tendo {
 	width: 100%;
 }
 
 #what-is-tendo h1 {
-	width: 50%;
-	height: 50%;
+	width: 25%;
 	color: #2B2B2B;
 	text-align: left;
-	position: static;
-	top: 10px;
-	left: 20px;
 	background-color: powderblue;
+	font-family: 'Raleway', sans-serif;
 }
 
-#what-is-tendo img {
-	width: 50%;
-	position: static;
-	top: -10px;
-	left: 40%;
-	
-}
-
-#what-is-tendo2 img {
-	width: 50%;
+#what-is-tendo p {
+	font-family: 'Raleway', sans-serif;
 }
 
 
