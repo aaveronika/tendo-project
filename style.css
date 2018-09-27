@@ -11,8 +11,7 @@
 nav img {
 	width: 250px;
 	position: fixed;
-	left: 2%;
-	top: 1%;
+	left: 3%;
 }
 
 /*Navigation*/
@@ -23,6 +22,7 @@ nav img {
 	width: 100%;
 	height: 100px;
 	background-color: #FFFFFF;
+	box-shadow: 0 0 10px 3px rgba(0,0,0,0.40);
 }
 
 nav {
@@ -77,20 +77,17 @@ ul li a {
 .index-image {
 	width: 50%;
 	margin: 20px;
-	position: relative;
-
 }
 
-.bg{
-    position:absolute;
+.bg {
+    position: static;
 }
 
-.honycombs{
+.honeycombs {
 	width: 60%;
 	margin-left: 280px;
 	margin-top: 220px;
 	position: relative;
-	
 }
 
 #what-is-tendo h1 {
@@ -99,16 +96,12 @@ ul li a {
 	text-align: left;
 	font-family: 'Raleway', sans-serif;
 	margin-top: -16px;	
-	position: relative;
-
 }
 
 #what-is-tendo p {
 	font-family: 'Raleway', sans-serif;
 	margin-right: 40px;
-	position: relative;
 }
-
 
 
 /*Footer*/
