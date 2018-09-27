@@ -77,23 +77,25 @@ ul li a {
 .index-image {
 	width: 50%;
 	margin: 20px;
-	margin-left: 480px;
+	
 }
 
-#what-is-tendo {
-	width: 100%;
-}
 
 #what-is-tendo h1 {
-	width: 25%;
+	width: 600px;
 	color: #2B2B2B;
 	text-align: left;
-	background-color: powderblue;
 	font-family: 'Raleway', sans-serif;
+	margin-top: -16px;
+	
+	
+	
 }
 
 #what-is-tendo p {
 	font-family: 'Raleway', sans-serif;
+	margin-right: 40px;
+	
 }
 
 
