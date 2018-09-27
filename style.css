@@ -71,10 +71,17 @@ ul li a {
 .index-page {
 	padding: 20px;
 	margin: 15px;
+	float: left;
+	
+	
 }
 
 .index-image {
 	width: 50%;
+	margin: 20px;
+	margin-left: 480px;
+	
+	
 }
 
 #what-is-tendo {
