@@ -76,9 +76,22 @@ ul li a {
 
 .index-image {
 	width: 50%;
-	margin: 20px;	
+	margin: 20px;
+	position: relative;
+
 }
 
+.bg{
+    position:absolute;
+}
+
+.honycombs{
+	width: 60%;
+	margin-left: 280px;
+	margin-top: 220px;
+	position: relative;
+	
+}
 
 #what-is-tendo h1 {
 	width: 600px;
@@ -86,11 +99,14 @@ ul li a {
 	text-align: left;
 	font-family: 'Raleway', sans-serif;
 	margin-top: -16px;	
+	position: relative;
+
 }
 
 #what-is-tendo p {
 	font-family: 'Raleway', sans-serif;
 	margin-right: 40px;
+	position: relative;
 }
 
 
@@ -98,7 +114,7 @@ ul li a {
 /*Footer*/
 
 .footer {
-	position: absolute;
+	position:absolute;
 	width: 100%;
 	background-color: #000000;
 	color: white;
