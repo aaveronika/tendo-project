@@ -85,10 +85,9 @@ ul li a {
 }
 
 .honeycombs {
-	width: 60%;
-	margin-left: 280px;
-	margin-top: 200px;
-	position: relative;
+	width: 70%;
+	margin-left: 200px;
+	margin-top: 90px;
 }
 
 #what-is-tendo h1 {
@@ -110,12 +109,13 @@ ul li a {
 /*Footer*/
 
 .footer {
+	display: table;
 	position:absolute;
 	width: 100%;
 	background-color: #000000;
 	color: white;
 	text-align: center;
-	height: 40px;	
+	height: 140px;	
 }
 	
 .footer p {
@@ -125,4 +125,6 @@ ul li a {
 	margin-right: 60px;	
  	background-color: #000000;
 	color: #FFFFFF;
+	vertical-align: middle;
+	display: table-cell;
 }
