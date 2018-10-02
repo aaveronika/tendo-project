@@ -12,6 +12,7 @@ nav img {
 	width: 250px;
 	position: fixed;
 	left: 3%;
+	z-index: 3;
 }
 
 /*Navigation*/
@@ -23,11 +24,13 @@ nav img {
 	height: 100px;
 	background-color: #FFFFFF;
 	box-shadow: 0 0 10px 3px rgba(0,0,0,0.40);
+	z-index: 2;
 }
 
 nav {
 	width: 100%;
 	height: 100px;
+	z-index: 3;
 }
 
 ul {
@@ -35,12 +38,14 @@ ul {
 	position: fixed;
 	top: 0;
 	right: 3%;
+	z-index: 3;
 }
 
 ul li {
 	list-style: none;
 	display: inline-block;
 	line-height: 100px;
+	z-index: 3;
 }
 
 ul li a {
@@ -51,19 +56,62 @@ ul li a {
 	color: #000000;
 	padding: 0 20px;
 	cursor: pointer;
+	z-index: 3;
+}
+
+nav a:hover {
+    color: #A9A9A9;
 }
 
 /*Hero*/
 
-.hero {
-	position: static;
-	left: 5%;
+* {box-sizing: border-box;}
+body {font-family: 'Raleway', sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  margin: auto;
+  z-index: 1;
 }
 
-.hero img {
-	width: 100%;
- 	position: static;
-  	left: 55%;
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }
 
 /*Index*/
@@ -78,10 +126,7 @@ ul li a {
 .bg {
 	background-image: url(images/background-diagonal.png);
 	width: 1000px;
-	height: 759px;
-
-	
-	
+	height: 759px;		
 }
 
 .honeycombs {
@@ -91,12 +136,8 @@ ul li a {
 }
 
 .bts1{
-	width: 100%;
-	
-	
+	width: 100%;	
 }
-
-
 
 #what-is-tendo h1 {
 	width: 600px;
