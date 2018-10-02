@@ -123,16 +123,37 @@ img {vertical-align: middle;}
 }
 
 
-
 .honeycombs {
 	width: 70%;
 	margin-left: 200px;
 	margin-top: 90px;
+
 }
 
-.bts1{
-	width: 100%;	
+
+.SOME{
+	align-items: center;
 }
+
+.fb{
+ align-items: center;
+	
+	
+}
+
+.insta{
+	align-items: center;
+	
+
+}
+
+.yt{
+	align-items: center;
+	
+	
+}
+
+
 
 #what-is-tendo h1 {
 	width: 600px;
