@@ -132,26 +132,16 @@ img {vertical-align: middle;}
 
 
 .SOME{
-	align-items: center;
-}
-
-.fb{
- align-items: center;
-	
-	
-}
-
-.insta{
-	align-items: center;
+	display: inline-block;
+	width: 1500px;
+	padding-left:200px;
 	
 
-}
 
-.yt{
-	align-items: center;
-	
 	
 }
+	
+	
 
 
 
