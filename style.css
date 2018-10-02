@@ -74,19 +74,20 @@ ul li a {
 	float: left;
 }
 
-.index-image {
-	width: 50%;
-	margin: 20px;
-}
 
 .bg {
-    position: static;
+	background-image: url(images/background-diagonal.png);
+	width: 1000px;
+	height: 759px;
+
+	
+	
 }
 
 .honeycombs {
 	width: 60%;
 	margin-left: 280px;
-	margin-top: 220px;
+	margin-top: 200px;
 	position: relative;
 }
 
@@ -94,13 +95,15 @@ ul li a {
 	width: 600px;
 	color: #2B2B2B;
 	text-align: left;
-	font-family: 'Raleway', sans-serif;
-	margin-top: -16px;	
+	font-family: 'Raleway', sans-serif; 
+	margin-top: -16px;
+	font-size: 3em;
 }
 
 #what-is-tendo p {
 	font-family: 'Raleway', sans-serif;
 	margin-right: 40px;
+	font-size: 2em;
 }
 
 
